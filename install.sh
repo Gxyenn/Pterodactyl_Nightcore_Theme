@@ -26,7 +26,7 @@ installTheme(){
     echo -e "${GREEN}Removing old theme if exist${RESET}"
     rm -r Pterodactyl_Nightcore_Theme > /dev/null 2>&1
     echo -e "${GREEN}Download the Theme${RESET}"
-    git clone https://github.com/NoPro200/Pterodactyl_Nightcore_Theme.git > /dev/null 2>&1
+    git clone https://github.com/Gxyenn/Pterodactyl_Nightcore_Theme.git > /dev/null 2>&1
     cd Pterodactyl_Nightcore_Theme > /dev/null 2>&1
     echo -e "${GREEN}Removing old theme resources if exist${RESET}"
     rm /var/www/pterodactyl/resources/scripts/Pterodactyl_Nightcore_Theme.css > /dev/null 2>&1
