@@ -79,7 +79,7 @@ installThemeQuestion(){
 }
 
 repair(){
-    bash <(curl https://raw.githubusercontent.com/NoPro200/Pterodactyl_Nightcore_Theme/main/repair.sh)
+    bash <(curl https://raw.githubusercontent.com/Gxyenn/Pterodactyl_Nightcore_Theme/main/repair.sh)
 }
 
 restoreBackUp(){
@@ -92,7 +92,7 @@ restoreBackUp(){
     yarn build:production > /dev/null 2>&1
     sudo php artisan optimize:clear > /dev/null 2>&1
 }
-echo "Copyright (c) 2024 Angelillo15 and NoPro200"
+echo "Copyright (c) 2024 Angelillo15 and Gxyenn"
 echo "This program is free software: you can redistribute it and/or modify"
 echo ""
 echo ""
